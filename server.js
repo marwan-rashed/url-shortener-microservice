@@ -9,7 +9,7 @@ const app = express();
 // Basic Configuration
 const port = process.env.PORT || 3000;
 
-const mongoUrl = `mongodb+srv://marwan:3RlCTFRdI0Lz8iAJ@urlshortner.4o8fe.mongodb.net/short-freecodecamp?retryWrites=true&w=majority`;
+const mongoUrl = ``;
 
 mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
 
